@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Responsive Web Developer Starter - devchallenges.io</title>
+</head>
+
+<body>
+    <div class="music-card">
+        <img src="./assets/cover-1.png" alt="Imagen de la canción" class="song-img" />
+
+        <div class="song-info">
+            <h3 class="title-song">Lost in the City Lights</h3>
+            <p class="author-song">Cosmo Sheldrake</p>
+        </div>
+
+        <div class="song-nav">
+            <div class="minutes">
+                <span id="minutes-start">00:00</span>
+                <span id="total-minutes">00:00</span>
+            </div>
+            <div class="progress-bar">
+                <input type="range" id="seek-bar" value="0" />
+            </div>
+        </div>
+
+        <div class="song-buttons">
+            <button class="previous">
+                <img src="./assets/Stop_and_play_fill-1.svg" alt="previous song icon" />
+            </button>
+            <button class="pause">
+                <img src="./assets/Play_fill.svg" alt="pause icon" />
+            </button>
+            <button class="next">
+                <img src="./assets/Stop_and_play_fill_reverse.svg" alt="next song icon" />
+            </button>
+        </div>
+
+
+        <audio id="audio-player"></audio>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
