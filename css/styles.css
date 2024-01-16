@@ -59,6 +59,10 @@ body {
     font-weight: bold;
 }
 
+.title-song {
+    color: white;
+}
+
 .song-info p {
     margin-top: 5px;
     font-size: 12px;
